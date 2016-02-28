@@ -92,7 +92,7 @@ if(!empty($_POST['width'])){
 
         </div>
     </div>
-    <div id="footer">footer$footer</div>
+    <div id="footer">Copyright © 2013-<?=date('Y')?> by OL Werdffelynir w-code.ru. All rights reserved.</div>
 </div>
 
 
