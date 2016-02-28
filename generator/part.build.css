@@ -1,6 +1,6 @@
 .clear_line{clear: both; width: 100%; height: 1px; margin-top: -1px}
 .hidden{visibility: hidden}
-.none{display: none}
+.none,.hide{display: none}
 .block{display: block}
 .inline{display: inline}
 .width100{width:100%}

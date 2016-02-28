@@ -1,1 +1,2 @@
-*{margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+*{margin: 0; padding: 0;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;font-family: "Ubuntu Condensed", "Ubuntu", "sans", "sans-serif";font-size: 95%  }
+*:focus{outline: none}
