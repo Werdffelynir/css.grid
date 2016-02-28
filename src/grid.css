@@ -1,5 +1,4 @@
 *{margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
-
 .grid1,
 .grid2,
 .grid3,
@@ -12,9 +11,6 @@
 .grid10,
 .grid11{display:inline; float:left; margin:0 0 0 1.0416666666667%; list-style:none;}
 .first{margin-left:0; clear:left;}
-.full,
-.grid,
-.grid12{display:block; width:100%; clear:both;}
 .grid1:first-child,
 .grid2:first-child,
 .grid3:first-child,
@@ -37,36 +33,41 @@
 .grid9{width:74.739583333333%;}
 .grid10{width:83.159722222222%;}
 .grid11{width:91.579861111111%;}
-
+.full,
+.grid,
+.grid12{display:block; width:100%; clear:both;}
+.full>div:nth-child(1),
+.grid>div:nth-child(1),
+.grid12>div:nth-child(1){margin-left:0; clear:left;}
 .clear_line{clear: both; width: 100%; height: 1px; margin-top: -1px}
 .clear:before,
 .clear:after{content: " "; display: table}
 .clear:after {clear: both}
 .clear {*zoom: 1}
-
-.txtleft{text-align:left}
-.txtright{text-align:right}
-.txtcenter{text-align:center}
-.mrgtop{margin-top:0}
-.mrgbottom{margin-bottom: 0}
-.mrgleft{margin-left: 0}
-.mrgright{margin-right: 0}
-.mrgcenter{margin: 0 auto}
+.hide{visibility: hidden}
 .block{display: block}
 .inline{display: inline}
-.fltleft{float: left}
-.fltright{float: right}
-.hide{visibility: hidden}
-.tbl{display:table; width:100%}
-.tblcell{display:table-cell;vertical-align:middle}
-.tblrow{display:table-row}
-.tblcolumn{display:table-column}
-.tblcapt{display:table-caption}
 .width100{width:100%}
 .width75{width:75%}
 .width50{width:50%}
+.width33{width:33%}
 .width25{width:25%}
 .width10{width:10%}
+.txt_left{text-align:left}
+.txt_right{text-align:right}
+.txt_center{text-align:center}
+.mrg_top{margin-top:0}
+.mrg_bottom{margin-bottom: 0}
+.mrg_left{margin-left: 0}
+.mrg_right{margin-right: 0}
+.mrg_center{margin: 0 auto}
+.flt_left{float: left}
+.flt_right{float: right}
+.tbl{display:table; width:100%}
+.tbl_cell{display:table-cell;vertical-align:middle}
+.tbl_row{display:table-row}
+.tbl_column{display:table-column}
+.tbl_capt{display:table-caption}
 .valign_baseline{vertical-align:baseline}
 .valign_bottom{vertical-align:bottom}
 .valign_middle{vertical-align:middle}
